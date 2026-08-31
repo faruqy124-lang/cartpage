@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee House ☕</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon">☕</span>
+                <span class="logo-text">Coffee House</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+            <button class="nav-toggle">☰</button>
+        </div>
+    </header>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Brewing <span class="highlight">Perfection</span><br />
+                    One Cup at a Time
+                </h1>
+                <p class="hero-text">
+                    Discover the art of specialty coffee. From bean to cup, 
+                    we craft every sip with passion and precision.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">View Menu</a>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&auto=format" 
+                     alt="Coffee pouring" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FEATURES ========== -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌱</div>
+                    <h3>100% Organic</h3>
+                    <p>Single-origin beans sourced from sustainable farms.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍🍳</div>
+                    <h3>Expert Roasting</h3>
+                    <p>Small-batch roasted by certified coffee masters.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Freshly roasted beans delivered to your doorstep.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">❤️</div>
+                    <h3>Loved by Many</h3>
+                    <p>Join 10,000+ happy coffee lovers worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MENU GRID ========== -->
+    <section class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Our Signature Brews</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&auto=format" 
+                         alt="Espresso" />
+                    <div class="menu-info">
+                        <h3>Espresso</h3>
+                        <p>Rich and bold, the perfect start.</p>
+                        <span class="price">$3.50</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1534687941688-6511ab59d8b3?w=400&auto=format" 
+                         alt="Latte" />
+                    <div class="menu-info">
+                        <h3>Latte</h3>
+                        <p>Smooth espresso with steamed milk.</p>
+                        <span class="price">$4.50</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1570968915860-54d5c92c936d?w=400&auto=format" 
+                         alt="Cappuccino" />
+                    <div class="menu-info">
+                        <h3>Cappuccino</h3>
+                        <p>Perfect balance of espresso and foam.</p>
+                        <span class="price">$4.75</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&auto=format" 
+                         alt="Cold Brew" />
+                    <div class="menu-info">
+                        <h3>Cold Brew</h3>
+                        <p>Slow-steeped for 12 hours.</p>
+                        <span class="price">$4.00</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1517701604599-bb29b880090f?w=400&auto=format" 
+                         alt="Mocha" />
+                    <div class="menu-info">
+                        <h3>Mocha</h3>
+                        <p>Espresso, chocolate, and steamed milk.</p>
+                        <span class="price">$5.00</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400&auto=format" 
+                         alt="Americano" />
+                    <div class="menu-info">
+                        <h3>Americano</h3>
+                        <p>Espresso with hot water.</p>
+                        <span class="price">$3.75</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "Best coffee I've ever had! The quality is outstanding."
+                    </p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Sarah Johnson</span>
+                        <span class="author-role">Coffee Enthusiast</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "The delivery is fast and the beans are always fresh."
+                    </p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Mike Chen</span>
+                        <span class="author-role">Regular Customer</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "Love the variety! There's always something new to try."
+                    </p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Emma Watson</span>
+                        <span class="author-role">Coffee Blogger</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-column">
+                <h3>☕ Coffee House</h3>
+                <p>Brewing happiness since 2020.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">About</a>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <p>📞 (555) 123-4567</p>
+                <p>✉️ info@coffeehouse.com</p>
+            </div>
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#">📘</a>
+                    <a href="#">📸</a>
+                    <a href="#">🐦</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Coffee House. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <style>
+        /* ========================================
+   RESET & BASE STYLES
+   ======================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #faf8f5;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: #2d1b0e;
+    letter-spacing: -0.5px;
+}
+
+.highlight {
+    color: #b8860b;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ========================================
+   BUTTONS
+   ======================================== */
+.btn {
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: #2d1b0e;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #4a2a16;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(45, 27, 14, 0.3);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #2d1b0e;
+    border: 2px solid #2d1b0e;
+}
+
+.btn-secondary:hover {
+    background: #2d1b0e;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* ========================================
+   NAVIGATION
+   ======================================== */
+.navbar {
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2d1b0e;
+}
+
+.logo-icon {
+    font-size: 1.8rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #2d1b0e;
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #2d1b0e;
+}
+
+/* ========================================
+   HERO
+   ======================================== */
+.hero {
+    padding: 60px 0 80px;
+    background: linear-gradient(135deg, #faf8f5 0%, #f0e8dd 100%);
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-title {
+    font-size: 3.2rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    color: #2d1b0e;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    flex: 1;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+}
+
+.hero-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* ========================================
+   FEATURES
+   ======================================== */
+.features {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 16px;
+    background: #faf8f5;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+}
+
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.feature-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #2d1b0e;
+}
+
+.feature-card p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* ========================================
+   MENU GRID
+   ======================================== */
+.menu-section {
+    padding: 80px 0;
+    background: #faf8f5;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.menu-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.menu-info {
+    padding: 20px;
+}
+
+.menu-info h3 {
+    font-size: 1.3rem;
+    color: #2d1b0e;
+    margin-bottom: 6px;
+}
+
+.menu-info p {
+    color: #777;
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+}
+
+.price {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #b8860b;
+}
+
+/* ========================================
+   TESTIMONIALS
+   ======================================== */
+.testimonials {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.testimonial-card {
+    background: #faf8f5;
+    padding: 30px;
+    border-radius: 16px;
+    border-left: 4px solid #b8860b;
+}
+
+.testimonial-text {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-weight: 600;
+    color: #2d1b0e;
+}
+
+.author-role {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+.footer {
+    background: #2d1b0e;
+    color: #f0e8dd;
+    padding: 60px 0 0;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.footer-column h4 {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.footer-column p {
+    color: #ccc;
+    line-height: 1.8;
+}
+
+.footer-column a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 8px;
+    transition: color 0.3s;
+}
+
+.footer-column a:hover {
+    color: #fff;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-links a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+   .hero-container{
+    display: flex;
+    flex-direction: column;
+   }
+   .features-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .menu-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .testimonial-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+}
+    </style>
+</body>
+</html>

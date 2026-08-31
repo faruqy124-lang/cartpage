@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body onload="searchMyFruits()">
+    <button onclick="callMe()">Call</button>
+
+    <input type="text" id="searched" onkeyup="searchMyFruits()" />
+    <div id="result"></div>
+    <script>
+      //arrow functions
+      // function callMe(){
+
+      // }
+
+      const callMe = (name) => {
+        alert(`I am working ${name}`);
+      };
+
+      // callMe()
+
+      // ()=>{
+
+      // }
+
+      //return keyword, higher order functions
+
+      const showMe = () => {
+        let name = "Sade";
+
+        let lastname = "Kola";
+
+        return "we are in class";
+
+        console.log(name + " " + lastname);
+      };
+
+      console.log(showMe());
+
+      const add = (a, b) => {
+        return a + b;
+      };
+
+      console.log(add(5, 6));
+
+      let arr = ["food", "pencil", "chalk", "book"];
+
+      arr.map((items, index) => {
+        console.log(items);
+      });
+
+      let students = ["pami", "kemi", "bola", "sade"];
+      students.map((student, index) => {
+        console.log(`${index + 1}. ${student}`);
+      });
+
+      let fruits = ["mango", "pawpaw", "orange", "apple", "cherry", "grapes"];
+      // let fruits =[1,2,3,4,5,6]
+
+      const displayFruits = () => {
+        fruits.forEach((fruit, index) => {
+        //   console.log(`${fruit}`);
+           result.innerHTML += `<h1>${fruit}</h1>`;
+        });
+      };
+
+    //   displayFruits()
+
+
+      const searchMyFruits = () => {
+          result.innerHTML = "";
+        if (searched.value == "") {
+            displayFruits()
+        } else {
+          const searchedFruits = fruits.filter((fruit) =>
+            fruit.toLowerCase().includes(searched.value.trim().toLowerCase()),
+          );
+
+          console.log(searchedFruits);
+        
+          searchedFruits.map((fruit, index) => {
+            result.innerHTML += `<h1>${fruit}</h1>`;
+          });
+        }
+      };
+    </script>
+  </body>
+</html>

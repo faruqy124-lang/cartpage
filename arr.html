@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let fruit = ["apple", "mango", "cashew", "orange"];
+      console.log(fruit.concat(["melon"])); // adding item together;
+      console.log(fruit.includes("mango")); // check if statement is real
+      console.log(fruit.pop()); // pop () in arr is ues for remove the the last word in arr.
+      console.log(fruit.length); // use for checking the lenght/ number of item in the container
+      console.log(fruit.push("stewbarry")); // belp to add new object
+      console.log(fruit.shift()); // to remove the first item/obeject in an arry
+
+      fruit.unshift("kiwi"); //  add to the first it an arry as the first item
+      console.log(fruit);
+
+      //slice and splice
+
+      let starionaries = ["brio", "chalk", "pen", "ruler", "marker"];
+      //start -index
+      //end - length
+
+      console.log(starionaries.slice(2, 5));
+
+      //spice
+      let student = ["meritGold", "umar", "faith", "mide", "tosin"];
+
+      //start -index
+      //end - length
+      student.splice(2,2) // it start removing from the end of the assign index, then it count forward. 
+      console.log(student)
+
+    </script>
+  </body>
+</html>
